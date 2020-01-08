@@ -1,0 +1,13 @@
+div:hover{
+	width: 200px;
+	height: 100px;
+	background-color: red;
+	animation-name: example;
+	animation-duration: 4s;
+}
+@keyframes example{
+	0%{background-color: #000;
+}
+100%{	background-color: red;
+}
+}
